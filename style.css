@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+header {
+    background: #243b55;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+nav {
+    background: #141e30;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #70d6ff;
+}
+
+.home {
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 400px;
+}
+
+.home h2 {
+    color: #243b55;
+    margin-bottom: 15px;
+}
+
+.home p {
+    margin-bottom: 25px;
+}
+
+.container {
+    max-width: 650px;
+    width: 70%;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #243b55;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #70d6ff;
+    padding-bottom: 8px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #243b55;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #edf2f7;
+}
+
+.btn {
+    display: inline-block;
+    background: #243b55;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #426b91;
+}
+
+footer {
+    background: #141e30;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+}
